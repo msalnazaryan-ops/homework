@@ -1,0 +1,28 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Testing Express logic",
+  "main": "app.js",
+  "repository": "https://github.com/argishtie/express-app.git",
+  "author": "Martun <martunsalnazaryan04@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config app.js dotenv_config_path=./.env"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "http-errors": "^2.0.1",
+    "lodash": "^4.18.1",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.1",
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.9",
+    "nodemon": "^3.1.14"
+  }
+}
