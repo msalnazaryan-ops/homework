@@ -1,0 +1,10 @@
+[
+  {
+    "id": "019ddafd-64b0-757a-8798-6dbd2c27b3fd",
+    "title": "Test Post",
+    "content": "Hello world",
+    "userId": "test-user-id",
+    "createdAt": "2026-04-29T20:45:32.733Z",
+    "updatedAt": "2026-04-29T20:45:32.734Z"
+  }
+]
